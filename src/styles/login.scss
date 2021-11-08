@@ -1,0 +1,80 @@
+.login-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 100vh;
+    
+    form{
+        h1{
+            text-align: center;
+        }
+        background: #7eccffd1;
+        border-radius: 10px;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        width: 300px;
+        margin: 0px auto;
+        padding: 25px;
+        label{
+            
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            width: 100%;
+            input{
+                padding-left: 25px;
+                width: auto;
+                height:25px;
+                border-radius: 5px;
+                border-color: rgba(47, 130, 255, 0.82);
+                outline: none;
+                background: #FFFFFF71;
+                 &:focus{
+                    background: #FFFFFFE1;
+                }
+            }
+            svg{
+                position:relative;
+                left:5px;
+                bottom:25px;
+            }
+            p{
+                position:relative;
+                font-size: .8rem;
+                font-weight: bold;
+                bottom:15px;
+                width: auto;
+                margin:0;
+                height:50px;
+                color:rgb(212, 0, 0);;
+                white-space: pre-wrap;
+            }
+        }
+        input.submit{
+            width: 100%;
+            height:25px;
+            border-radius: 5px;
+            background:rgba(47, 130, 255, 0.82);
+            border-color: rgba(47, 130, 255, 0.82);
+            color:white;
+            &:disabled{
+                opacity: 0.5;
+            }
+        }
+        p.server{
+            text-align:center;
+            font-weight: bold;
+            width: auto;
+            margin:0;
+            height:50px;
+            color:rgb(212, 0, 0);
+            white-space: pre-wrap;
+        }
+    };
+}

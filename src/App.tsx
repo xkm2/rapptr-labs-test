@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import LoginPage from './pages/login';
 import ToDoPage from './pages/to-do';
 import './App.scss';

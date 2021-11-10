@@ -59,7 +59,7 @@ const LoginPage = () => {
         formData.append("email", email);
         formData.append("password", pass);
 
-        fetch('http://dev.rapptrlabs.com/Tests/scripts/user-login.php', {
+        fetch('https://dev.rapptrlabs.com/Tests/scripts/user-login.php', {
             method: 'POST',
             body: formData
         }).then(response => {
